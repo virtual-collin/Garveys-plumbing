@@ -37,7 +37,7 @@ html, body {
 }
 
 .main-nav li {
-    padding: o 5%;
+    padding: 0 1%;
 
 }
 
@@ -54,3 +54,8 @@ padding-bottom: 5px;
     margin: 0;
     font-size: 4em;
 }*/
+
+.content-section {
+    margin: 2.1em;
+}
+
