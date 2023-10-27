@@ -30,10 +30,13 @@ html, body {
 .main-nav {
     text-align: center;
     font-size: 2.1em;
-    border-bottom: 1px solid rgba(222, 222, 222);
+    border-bottom: 3px solid rgb(5, 5, 5);
+    text-align: center;
 }
 .nav a:hover {
-    background-color: rgba(22, 21, 21, 0.3);
+    background-color: rgba(8, 199, 17, 0.3);
+    padding: 0 1.5;
+
 }
 
 .main-nav li {
@@ -42,20 +45,112 @@ html, body {
 }
 
 .main-header {
-background-color: rgba(198, 193, 193, 0.6);
-background-image: url(/Users/collinrausch/Desktop/Garveys-Plumbing/garveysplumbing/van.JPG); 
+background-color: rgba(219, 219, 219, 0.932);
+/*background-image: url(/Users/collinrausch/Desktop/Garveys-Plumbing/garveysplumbing/van.JPG); */
 background-blend-mode: multiply;
 background-size: cover;
 padding-bottom: 5px;
 }
 
-/* .name {
+.main-footer {
+    background-color: rgb(29, 123, 29);
+    padding-top: 5px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+ .name {
     text-align: center;
     margin: 0;
     font-size: 4em;
-}*/
+}
 
 .content-section {
     margin: 2.1em;
 }
 
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+
+}
+
+.section-header {
+    color: green;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+.vanimg {
+    float: right;
+    height: 250px;
+    width: 500px;
+    margin: 15px;
+    border: 10%;
+}
+
+.emergserv{
+    color: green;
+    text-align: center;
+
+}
+
+.nextdoor{
+    margin: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding: 0 1%;
+
+}
+
+.phone{
+    text-align: right;
+    margin: 10px;
+    color: green;
+    font-size: 1em;
+
+}
+
+.foot{
+    text-align: center;
+    margin: 10px;
+    padding: 0 1%;
+
+}
+
+.nextdoor-foot {
+    text-align: center;
+    margin: 10px;
+    padding: 0 1%;
+}
+
+.service-body{
+    text-align: center;
+}
+
+.home-heading{
+    text-align: center;
+}
+
+.home-content {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.feature-serv {
+    text-align: center;
+    padding-bottom: 5px;
+}
+.feature-about {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.feature-contact {
+    text-align: center;
+}
+.home-cont-bott {
+    text-align: center;
+}
